@@ -1,0 +1,54 @@
+1) GitHub setup
+
+cd "folder path"
+git config --global user.name "name"
+git config --global user.email "email"
+touch .gitignore
+git init
+git add .
+git commit -m "initial commit"
+git status   (if msg show working tree clean then we are ready)
+
+
+git remote add origin (paste after clicking ssh)
+generate ssh key by copy the text from generate ssh key then enter enter
+
+cat  copy storage path 
+ssh key get generate 
+then paste at github
+
+git push origin master
+
+now project is uploaded
+
+
+# use of gitignore 
+type name of folder/
+that folder will not appear in github
+
+# how to update 
+git push origin master
+
+
+
+2) Terminology
+
+1) version control system (vcs)/ source code manager (scm)
+-> tool that manages different version of source code
+
+2) commit
+-> save at a movement
+
+3) Repostitory/ Repo
+-> repo is directory where project is save and also there a commit 
+
+4) Working Directory
+
+5)Checkout
+ -> checkout is when content in the repository has been copied to the Working Directory.
+
+6)SHA
+-> SHA is basically an ID number for each commit. secure hash algorithm
+
+7)Branch
+-> branch is when a new line of development is created that diverges from the main line of development. This alternative line of development can continue without altering the main line.
